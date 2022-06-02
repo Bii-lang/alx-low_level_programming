@@ -2,7 +2,6 @@
 
 /**
  *main - print size of different types
- *
  *Return: Always 0 (Success)
  */
 int main(void)
