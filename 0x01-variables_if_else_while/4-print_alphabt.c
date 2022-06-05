@@ -1,5 +1,5 @@
 #include <stdio.h>
-i
+
 /**
  * main - prints the alphabet except 
  * e and q when excecuted
@@ -7,7 +7,7 @@ i
  */
 int main(void)
 {
-	char c ='a';
+	char c = 'a';
 
 	while (c <= 'z')
 	{
