@@ -1,5 +1,5 @@
 #include <stdio.h>
-
+i
 /**
  * main - prints the alphabet except 
  * e and q when excecuted
@@ -19,3 +19,4 @@ int main(void)
 	}
 	putchar('\n');
 	return (0);
+}
