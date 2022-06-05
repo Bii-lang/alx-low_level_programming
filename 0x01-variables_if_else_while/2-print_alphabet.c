@@ -1,12 +1,10 @@
 #include <stdio.h>
 
-
-/** 
- * main - Prints out the alphabet in small letters
- * when it executes
- * Return: Always 0 (Success)
+/**
+ * main - Prints out the alphabet in lowecase
+ * when c is executed
+ * Reurn: Always 0 (Success)
  */
-
 int main(void)
 {
 	char c;
