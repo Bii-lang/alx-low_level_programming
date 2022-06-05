@@ -1,5 +1,4 @@
 #include <stdio.h>
-
 /**
  * main - prints the alphabet except 
  * e and q when excecuted
