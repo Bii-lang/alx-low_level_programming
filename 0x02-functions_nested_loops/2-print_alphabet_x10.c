@@ -5,21 +5,22 @@
  *
  * Return: Always 0.
  */
-void print_alphabet_x10(int)
+void print_alphabet_x10()
 {
 	char c;
-
-	c ='a';
-
-	while (c <= 'z')
+	int i;
+	while (i < 11)
 	{
-		_putchar(c);
-		c++;
+		_putchar('\n');
+		i++;
+		for (c = 'a'; c <= 'z'; c++)
+		{
+			_putchar(c);
+		}
 	}
-	_putchar('\n');
 }
 int main(void)
 {
-	print_alphabet_x10(10);
+	print_alphabet_x10();
 	return (0);
 }
