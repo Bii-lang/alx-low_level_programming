@@ -1,9 +1,7 @@
 #include "main.h"
-
+#include <stdio.h>
 /**
- * main - check the code
- *
- * Return: Always 0.
+ * print_alphabet - prints the alphabet in 10 lines followed by a new line
  */
 void print_alphabet_x10(void)
 {
