@@ -5,13 +5,13 @@
  *
  * Return: Always 0.
  */
-void print_alphabet_x10(void)
+void print_alphabet_x10()
 {
 	char c;
 
 	c ='a';
 
-	while (c <= z)
+	while (c <= 'z')
 	{
 		_putchar(c);
 		c++;
