@@ -10,10 +10,6 @@ int _strlen(char *s)
 	int count;
 	for (count = 0; count < '\0'; count++)
 	{
-		if (*(s + count) != '\0')
-		{
-			return;
-		}
+		return(count);
 	}
-	return(count);
 }
