@@ -7,8 +7,7 @@
  */
 void print_rev(char *s)
 {
-	int c = 0, a, b;
-	char *d, revs;
+	int c = 0;
 
 	while (c >= 0)
 	{
@@ -16,15 +15,7 @@ void print_rev(char *s)
 			break;
 		c++;
 	}
-	d = s;
-
-	for (a = 0; a < (c - 1); a++)
-	{
-		for (b = a + 1; b > 0; b--)
-		{
-			revs = *(d + b);
-			*(d + b) = *(d + (b-1));
-			*(d + (b - 1)) = revs;
-		}
-	}
+	for (c--; c >= 0; c--)
+		putchar(s[c]);
+	putchar('\n');
 }
