@@ -19,5 +19,5 @@ int _isalpha(int c)
 				isLet = 1;
 		}
 	}
-	return (isLet)
+	return (isLet);
 }
