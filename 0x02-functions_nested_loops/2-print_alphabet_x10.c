@@ -2,7 +2,7 @@
 #include <stdio.h>
 
 /**
- * print_alphabet - prints the alphabet in 10 lines followed by a new line
+ * print_alphabet_x10 - prints the alphabet in 10 lines followed by a new line
  */
 void print_alphabet_x10(void)
 {
