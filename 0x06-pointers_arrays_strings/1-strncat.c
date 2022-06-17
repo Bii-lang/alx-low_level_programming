@@ -9,8 +9,7 @@
  */
 char *_strncat(char *dest, char *src, int n)
 {
-	int ct1 = 0;
-	int ct2 = 0;
+	int ct1 = 0, ct2 = 0;
 
 	while (*(dest + ct1) != '\0')
 	{
@@ -18,7 +17,7 @@ char *_strncat(char *dest, char *src, int n)
 	}
 	while (ct2 < n)
 	{
-		*(dest + ct1) = ^(src +ct2);
+		*(dest + ct1) = *(src +ct2);
 		if (*(src + ct2) == '\0')
 			break;
 		ct1++;
