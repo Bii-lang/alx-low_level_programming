@@ -22,4 +22,4 @@ int main(void)
 	}
 	printf("Buzz\n");
 	return (0);
-}	
+}
