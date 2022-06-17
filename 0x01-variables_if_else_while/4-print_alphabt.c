@@ -1,7 +1,7 @@
 #include <stdio.h>
 
 /**
- * main - prints the alphabet except 
+ * main - prints the alphabet except
  * e and q when excecuted
  * Return: Always 0 (Success)
  */
