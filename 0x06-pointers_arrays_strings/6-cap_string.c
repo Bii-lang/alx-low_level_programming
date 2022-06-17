@@ -5,7 +5,7 @@
  * @st: input string
  * Return: pointer to destination
  */
-char *cap_string(char *)
+char *cap_string(char *st)
 {
 	int ct = 0, a;
 	int wrds[] = {32, 9, 10, 44, 59, 46, 33, 63, 34, 40, 41, 123, 125};
