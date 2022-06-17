@@ -6,7 +6,8 @@
  * @src: source
  * @dest: destination
  * Return: pointer to dest
- */char *_strncat(char *dest, char *src, int n)
+ */
+char *_strncat(char *dest, char *src, int n)
 {
 	int ct1 = 0;
 	int ct2 = 0;
