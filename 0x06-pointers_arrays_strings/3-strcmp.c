@@ -10,7 +10,7 @@ int _strcmp(char *s1, char *s2)
 {
 	int j = 0; k = 0;
 
-	while (k ==0)
+	while (k == 0)
 	{
 		if ((*(s1 + j) == '\0') && (*(s2 + k) == '\0')
 				break;
