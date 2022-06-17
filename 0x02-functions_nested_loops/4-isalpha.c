@@ -10,7 +10,7 @@ int _isalpha(int c)
 {
 	char low, upp;
 	int isLet = 0;
-	
+
 	for (low = 'a'; low <= 'z'; low++)
 	{
 		for (upp = 'A'; upp <= 'Z'; upp++)
