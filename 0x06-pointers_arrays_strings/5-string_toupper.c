@@ -9,7 +9,7 @@
 char *string_toupper(char *st)
 {
 	int ct = 0;
-
+	
 	while (*(st + ct) !='\0')
 	{
 		if ((*(st + ct) >= 97) && (*(st + ct) <= 122))
